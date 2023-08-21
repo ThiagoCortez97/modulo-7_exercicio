@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Controle de estoque</h1>
+        </div>
+    </header>
+    <main>
+        <section id="explicação">
+            <div class="container">
+                <p>O valor de B tem que ser maior que o valor de A</p>
+            </div>
+        </section>
+        <section id="inputs">
+            <div class="container">
+                <form id="form-deposito">
+                    <h1>B</h1>
+                    <input type="number" id="campo-b" placeholder="Quantidade a Retirar." required />
+                    <h1>A</h1>
+                    <input type="number" id="campo-a" placeholder="Quantidade Disponivel." required />
+                    <p id="mensagem-erro"></p>
+                    <br>
+                    <button type="submit" id="btn">Enviar</button>
+                </form>
+                <p id="mensagem-resposta"></p>
+            </div>
+        </section>
+        <section id="resto">
+            <div class="container">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; Direitos Reservados TH 21.08.2023</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
